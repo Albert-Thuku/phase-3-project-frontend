@@ -1,8 +1,15 @@
 import React from "react";
+import Destinations from "./Destinations";
 
 function Home (){
     return(
-        <h1>Home page</h1>
+        <div id="main-page">
+            {/* insert header */}
+            {/* insert navbar */}
+            <section id="destinations-sec">
+                <Destinations />
+            </section>
+        </div>
     );
 }
 
