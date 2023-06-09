@@ -1,10 +1,15 @@
 import React from "react";
 import DestinationCard from "./DestinationCard";
 
-function Destinations({data}){
+function Destinations({data, userInterest}){
+
+    function interestAdd(destination){
+        userInterest(destination)
+    }
+
     return(
         < div id="destinations-div">
-            <DestinationCard data={data} />
+            <DestinationCard data={data} onInterested={interestAdd}/>
         </div>
     );
 }

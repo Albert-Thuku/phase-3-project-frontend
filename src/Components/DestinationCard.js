@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import EditDestination from "./EditDestination";
 
-function DestinationCard({ data }) {
+function DestinationCard({ data , onInterested}) {
   const [editId, setEditId] = useState(null);
 
   const handleEdit = (event, destination) => {
@@ -56,6 +56,10 @@ function DestinationCard({ data }) {
       });
   };
 
+  function handleInterest(destination){
+    onInterested(destination)
+  }
+
   return (
     <div className="destination-card">
       {data.map((destination) => (
@@ -74,6 +78,7 @@ function DestinationCard({ data }) {
                 <p>{destination.description}</p>
                 <p>Location: {destination.location}</p>
                 <br />
+                <button onClick={()=>handleInterest(destination)}>Interested</button>
                 <button onClick={(event) => handleEdit(event, destination)}>
                   Edit
                 </button>

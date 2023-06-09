@@ -4,7 +4,7 @@ import Categories from "./Categories";
 import NavBar from "./NavBar";
 import AppRoutes from "./AppRoutes";
 
-function Home() {
+function Home({interestedHandler}) {
   const [destinations, setDestinations] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
 
@@ -25,6 +25,10 @@ function Home() {
     ? destinations.filter((destination) => destination.category === selectedCategory)
     : destinations;
 
+  function handleUserInterest(destination){
+    interestedHandler(destination)
+  }
+
   return (
     <>
       <section id="navbar-sec">
@@ -40,7 +44,7 @@ function Home() {
           <Categories data={destinations} onCategorySelect={handleCategorySelect} />
         </section>
         <section id="destinations-sec">
-          <Destinations data={filteredDestinations} />
+          <Destinations data={filteredDestinations} userInterest={handleUserInterest} />
         </section>
       </div>
     </>
