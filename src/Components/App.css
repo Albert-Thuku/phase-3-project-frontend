@@ -1,0 +1,155 @@
+body {
+    background-image: url("https://wallpapers.com/images/hd/kenya-safari-sunset-ktutwrwo4gqw85n9.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #welcome-page {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e6f3ff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #welcome-header {
+    color: #1a237e;
+    font-size: 32px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #424242;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #616161;
+  }
+  
+  a {
+    color: #1a237e;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  #login-formdiv {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  #login-formdiv header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #login-form label {
+    display: block;
+  }
+  
+  #login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #login-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #login-form p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #login-form a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #login-form a:hover {
+    text-decoration: underline;
+  }
+  
+  #signup-formdiv {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  #signup-formdiv header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #signup-form label {
+    display: block;
+  }
+  
+  #signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #signup-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #signup-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #signup-form a {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #signup-form a:hover {
+    text-decoration: underline;
+  }

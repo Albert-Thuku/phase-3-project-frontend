@@ -1,8 +1,11 @@
 import React from "react";
+import DestinationCard from "./DestinationCard";
 
-function Destinations(){
+function Destinations({data}){
     return(
-        <h1>Destinations Page</h1>
+        < div id="destinations-div">
+            <DestinationCard data={data} />
+        </div>
     );
 }
 
