@@ -1,10 +1,8 @@
 body {
-   
   background-size: cover;
   background-position: center;
   background-image: url("https://wallpaperset.com/w/full/8/8/0/462749.jpg");;
 }
-
 #welcome-page {
   text-align: center;
   margin: 50px auto;
@@ -12,37 +10,30 @@ body {
   padding: 20px;
   border: none;
   border-radius: 10px;
-  background-color: #e6f3ff;
+  background-color: #E6F3FF;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 #welcome-header {
-  color: #1a237e;
+  color: #1A237E;
   font-size: 32px;
 }
-
 h3 {
   margin-top: 20px;
   font-size: 24px;
   color: #424242;
 }
-
 p {
   margin-top: 20px;
   font-size: 18px;
   color: #616161;
 }
-
 a {
-  color: #1a237e;
+  color: #1A237E;
   text-decoration: none;
 }
-
 a:hover {
   text-decoration: underline;
 }
-
-
 #login-formdiv {
   text-align: center;
   margin: 50px auto;
@@ -50,19 +41,16 @@ a:hover {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
 }
-
 #login-formdiv header {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
 }
-
 #login-form label {
   display: block;
 }
-
 #login-form input {
   width: 100%;
   padding: 10px;
@@ -71,36 +59,30 @@ a:hover {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-
 #login-form button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #007BFF;
   color: #fff;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
-
 #login-form button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #0056B3;
 }
-
 #login-form p {
   margin-top: 20px;
   font-size: 16px;
   color: #333;
 }
-
 #login-form a {
-  color: #007bff;
+  color: #007BFF;
   text-decoration: none;
 }
-
 #login-form a:hover {
   text-decoration: underline;
 }
-
 #signup-formdiv {
   text-align: center;
   margin: 50px auto;
@@ -108,19 +90,16 @@ a:hover {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #F2F2F2;
 }
-
 #signup-formdiv header {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
 }
-
 #signup-form label {
   display: block;
 }
-
 #signup-form input {
   width: 100%;
   padding: 10px;
@@ -129,38 +108,32 @@ a:hover {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-
 #signup-form button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: #007BFF;
   color: #fff;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
-
 #signup-form button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #0056B3;
 }
-
 #signup-form a {
   display: block;
   margin-top: 20px;
-  color: #007bff;
+  color: #007BFF;
   text-decoration: none;
 }
-
 #signup-form a:hover {
   text-decoration: underline;
 }
-
 .destination-card {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 }
-
 .card {
 flex: 0 0 calc(33.33% - 10px);
 border: 1px solid #ccc;
@@ -171,14 +144,12 @@ box-sizing: border-box;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-
 }
 .categories-container {
 display: flex;
 justify-content: center;
 margin-bottom: 20px;
 }
-
 .categories-button {
 background-color: #ccc;
 border: none;
@@ -189,104 +160,82 @@ font-size: 14px;
 cursor: pointer;
 transition: background-color 0.3s ease;
 }
-
 .categories-button.active {
 background-color: #333;
 color: #fff;
 }
-
 .categories-button:focus {
 outline: none;
 }
-
 .categories-button:hover {
 background-color: #999;
 color: #fff;
 }
-
-
 .card img {
 width: 100%;
 height: auto;
 object-fit: cover;
 margin-bottom: 10px;
 }
-
 .card h2 {
 margin: 0;
 font-size: 20px;
 }
-
 .card p {
 margin: 5px 0;
 }
-
 .card button {
 margin-top: 10px;
 }
-
-
 .add-destination-container {
 display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 20px;
 }
-
 .add-destination-header {
 font-size: 24px;
 margin-bottom: 20px;
 }
-
 .add-destination-form {
 display: flex;
 flex-direction: column;
 width: 300px;
 margin-bottom: 20px;
 }
-
 .add-destination-form label {
 margin-bottom: 5px;
 }
-
 .add-destination-form input {
 padding: 5px;
 margin-bottom: 10px;
 }
-
 .add-destination-form button {
 padding: 10px 20px;
-background-color: #428bca;
+background-color: #428BCA;
 color: #fff;
 border: none;
 cursor: pointer;
 }
-
 .add-destination-form button:hover {
-background-color: #3071a9;
+background-color: #3071A9;
 }
-
 .add-destination-form input[type="url"] {
 width: 100%;
 }
-
 .add-destination-form input[type="text"] {
 width: 100%;
 }
-
 .add-destination-form input[type="submit"] {
 width: auto;
 }
-
 .add-destination-form input::placeholder {
 color: #999;
 }
-
 .add-destination-form input:focus {
 outline: none;
-border-color: #428bca;
+border-color: #428BCA;
 }
-
 .edit-button {
 background-color: #ccc;
 color: #333;
@@ -297,12 +246,10 @@ margin-right: 10px;
 font-size: 14px;
 cursor: pointer;
 }
-
 .edit-button:hover {
 background-color: #999;
 color: #fff;
 }
-
 .nav-link {
 display: inline-block;
 margin-right: 10px;
@@ -312,35 +259,29 @@ font-weight: bold;
 background-color: transparent;
 transition: background-color 0.3s ease;
 }
-
 .nav-link:last-child {
 margin-right: 0;
 }
-
 .nav-link:hover {
 background-color: #999;
 }
-
 #add-destination-div {
 max-width: 600px;
 margin: 0 auto;
 padding: 20px;
-background-color: #f9f9f9;
+background-color: #F9F9F9;
 border-radius: 4px;
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-
 #add-destination-div header {
 font-size: 24px;
 font-weight: bold;
 margin-bottom: 20px;
 }
-
 #add-destination-form label {
 display: block;
 margin-bottom: 10px;
 }
-
 #add-destination-form input[type="text"],
 #add-destination-form input[type="url"] {
 width: 100%;
@@ -349,20 +290,17 @@ border: 1px solid #ccc;
 border-radius: 4px;
 margin-bottom: 10px;
 }
-
 #add-destination-form button[type="submit"] {
-background-color: #1e046b;
+background-color: #1E046B;
 color: white;
 padding: 10px 20px;
 border: none;
 border-radius: 4px;
 cursor: pointer;
 }
-
 #add-destination-form button[type="submit"]:hover {
-background-color: #3929b1;
+background-color: #3929B1;
 }
-
 #add-destination-form a {
 display: block;
 margin-top: 10px;
@@ -376,19 +314,16 @@ align-items: center;
 justify-content: center;
 margin-top: 20px;
 margin-bottom: 20px;
-background-color: #c3b091;
+background-color: #C3B091;
 padding: 20px;
 }
-
 .navbar-heading {
 margin-bottom: 10px;
 }
-
 .navbar-links {
 display: flex;
 justify-content: center;
 }
-
 .nav-link {
 display: inline-block;
 margin-right: 10px;
@@ -398,26 +333,63 @@ font-weight: bold;
 padding: 8px 16px;
 border-radius: 4px;
 }
-
 .nav-link:hover {
-background-color: #f2f2f2;
+background-color: #F2F2F2;
 }
-
 .card button {
-margin-right: 5px;
-margin-top: auto; 
-background-color: #c3b091;
-border: none;
-color: black;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-cursor: pointer;
-transition: background-color 0.3s ease;
+  margin-right: 5px;
+  margin-top: auto;
+  background-color: #C3B091;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
 }
-
 .card button:hover {
-background-color: #f2e5b3;
+background-color: #F2E5B3;
+}
+#interest-list-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.interest-card {
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px; /* Increase the width */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.interest-card img {
+  width: 100%;
+  height: 200px; /* Increase the height */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.interest-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.interest-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.interest-card a {
+  display: inline-block;
+  background-color: #C3B091;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.interest-card a:hover {
+  background-color: #B39F81;
 }
