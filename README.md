@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+## Travel App
+The Travel Guru App is a React application that allows users to sign up, log in, view destinations, express interest in destinations, and access an admin dashboard. The app utilizes React Router for navigation and includes several components for different functionalities.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Prerequisites
+Before running the Travel App, ensure that you have the following installed:
 
-## Available Scripts
+Node.js
+npm (Node Package Manager)
+### Installation
+Clone the repository or download the source code files.
 
-In the project directory, you can run:
+Open a terminal and navigate to the project's root directory.
 
-### `npm start`
+Install the required dependencies by running the following command:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+shell
+Copy code
+npm install
+## Usage
+To run the Travel App, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Make sure you are in the project's root directory in the terminal.
 
-### `npm test`
+Start the development server by running the following command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+shell
+Copy code
+npm start
+Open a web browser and access the app at http://localhost:3000.
 
-### `npm run build`
+## Components
+The Travel App consists of the following components:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. App
+The App component serves as the main entry point for the application. It handles routing using React Router and manages the user's interest list.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Welcome
+The Welcome component represents the landing page of the app. It provides information and options for signing up and logging in.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. SignUp
+The SignUp component allows new users to create an account by providing necessary details such as name, email, and password.
 
-### `npm run eject`
+### 4. LogIn
+The LogIn component enables users to log into their accounts using their email and password.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 5. Home
+The Home component serves as the main page of the app after a user logs in. It provides navigation to different sections such as interests and admin dashboard. It also includes a handler function to manage user interests.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 6. Interests
+The Interests component displays the user's interest list, showing the destinations they have expressed interest in.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 7. Admin
+The Admin component represents the admin dashboard, which provides additional functionality for managing destinations and user data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## MIT License
 
-## Learn More
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
