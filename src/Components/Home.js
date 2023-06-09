@@ -9,7 +9,7 @@ function Home({interestedHandler}) {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/destinations")
+    fetch("https://travel-guru-backend.onrender.com/destinations")
       .then((resp) => resp.json())
       .then((data) => {
         setDestinations(data);
@@ -36,7 +36,7 @@ function Home({interestedHandler}) {
         <AppRoutes />
       </section>
       <div id="main-page">        
-        <section id="category-sec">
+        <section id="cahttp://127.0.0.1:8000tegory-sec">
           <Categories data={destinations} onCategorySelect={handleCategorySelect} />
         </section>
         <section id="destinations-sec">
