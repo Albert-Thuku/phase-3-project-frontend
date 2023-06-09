@@ -35,11 +35,7 @@ function Home({interestedHandler}) {
         <NavBar />
         <AppRoutes />
       </section>
-      <div id="main-page">
-        <div id="main-page-header">
-          <header>Destinations</header>
-        </div>
-        
+      <div id="main-page">        
         <section id="category-sec">
           <Categories data={destinations} onCategorySelect={handleCategorySelect} />
         </section>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 function Interests({data}){
@@ -16,6 +17,7 @@ function Interests({data}){
                     </div>
                 );
             })}
+            <Link to='/Home'>Back to Home</Link>
         </div>
     );
 }
