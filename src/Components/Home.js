@@ -48,5 +48,3 @@ function Home({interestedHandler}) {
 }
 
 export default Home;
-
-
