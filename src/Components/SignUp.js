@@ -14,7 +14,7 @@ function SignUp() {
   function handleSubmit(e) {
     e.preventDefault();
     if (userData.name && userData.password) {
-      fetch("http://127.0.0.1:8000/signup", {
+      fetch("https://travel-guru-backend.onrender.com/signup", {
         method: "POST",
         headers: {
           Accept: "application/json",
