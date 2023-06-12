@@ -12,7 +12,7 @@ function DestinationCard({ data , onInterested}) {
   const handleSaveEdit = (updatedDestination) => {
     const id = updatedDestination.id;
 
-    fetch(`https://travel-guru-backend.onrender.com/update/destination/${id}`, {
+    fetch(`http://127.0.0.1:8000/update/destination/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -41,7 +41,7 @@ function DestinationCard({ data , onInterested}) {
   const handleDelete = (event, id) => {
     event.preventDefault();
 
-    fetch(`https://travel-guru-backend.onrender.com/delete/destinations/${id}`, {
+    fetch(`http://127.0.0.1:8000/delete/destinations/${id}`, {
       method: "DELETE",
     })
       .then((response) => {

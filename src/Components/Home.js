@@ -9,7 +9,7 @@ function Home({interestedHandler}) {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   useEffect(() => {
-    fetch("https://travel-guru-backend.onrender.com/destinations")
+    fetch("http://127.0.0.1:8000/destinations")
       .then((resp) => resp.json())
       .then((data) => {
         setDestinations(data);

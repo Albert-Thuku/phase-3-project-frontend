@@ -17,7 +17,7 @@ function LogIn(){
       function handleSubmit(e) {
         e.preventDefault();
         if (userData.name && userData.password) {
-            fetch('https://travel-guru-backend.onrender.com/users')
+            fetch('http://127.0.0.1:8000/users')
             .then(resp => resp.json())
             .then(data => {
                 let selectUser = data.filter(user => user.name === userData.name && user.password === userData.password);
