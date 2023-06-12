@@ -15,7 +15,7 @@ function Home({interestedHandler}) {
         setDestinations(data);
       })
       .catch((err) => console.error(err));
-  }, []);
+  },[]);
 
   function handleCategorySelect(category) {
     setSelectedCategory(category);
